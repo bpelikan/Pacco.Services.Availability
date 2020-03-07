@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Pacco.Services.Availability.Core.Exceptions
 {
-    public class MissingResourceTagsException : DomainExceptionBase
+    public class MissingResourceTagsException : DomainException
     {
         public override string Code => "missing_resource_tags";
 
